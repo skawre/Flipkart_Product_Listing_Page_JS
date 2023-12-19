@@ -11,16 +11,12 @@
   justify-content: space-around;
   padding-left: 12px;
   padding-right: 12px;
-  
-  
-  
 }
 
 .header {
   align-items: center;
   height: 56px;
   justify-content: space-around;
- 
 }
 
 .logo {
@@ -47,6 +43,7 @@
     font-weight: bold;
     padding: 15px;
     width: 660px; 
+    /* flex-wrap: wrap; */
 }
 
 .product{
@@ -56,12 +53,12 @@
 }
 .product-specs {
     background-color: rgb(255, 255, 255);
-/*     height: 268px; */
+    /* height: 268px; */
     justify-content: flex-start; 
     padding-top: 18px; 
     padding-left: 40px;
-    
-
+    /* padding-bottom: 20px; */
+   
 }
 .iphone{
     padding-left: 20px;
@@ -108,7 +105,13 @@
 .disc{
     font-size: 14px;
 }
-
+.comp_and_cart{
+    padding-left: 25px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    font-size: 14px;
+    
+}
 hr{
     opacity: 10%;
 }
